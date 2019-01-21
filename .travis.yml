@@ -5,3 +5,10 @@ cache:
     - node_modules
 env:
   - CI=true
+deploy:
+  provider: heroku
+  api_key:
+    secure: SlJ6U8Y4Xoq7txmdPSL0Vd7n8ax+2BByVIDGOqhScLZ0VYaYIQHbKs0o7Hg6TbcdcbKr7k6ULSCDKS9MKlj9uDouNQCuwQtmhG0Xf0H1Fevq4miGzdD0stIeSoPiwc8H0RSE0hrISY/rDtQkv1welZ6PdM8ZFq8aLMq2p4dRV1RJqRycc445cad8OOUgeTSzVtCFQxrCGIJdBtzn49sHNGkHJ2zYwbHzniKCbAJEKrAAaYvRveUo2lEhFGrdpRyEZ0MWVFSrTaVfgnqLnzhPrmHjPv83u7KI2fZcN+rUShMlmHD26rNxZ41KhK0FzGWQ32XvcCu2hqoujnKtZyemQWDKIR7cM0VrMD8UJgxArnWrG8gjw3C/X3T1yFMTk7tz9DnTXAsU+dKAKhZTqk8w1qsX/ZVsat8TzXfN56mZXESZ9ZdK0IEzn2nDwhjsNtPPmnkrEXQ9t6cYnO2pcfWqCEexb7+t3xfjxnOPVLXnHdJcozPW7BerS4aso/6uQQ4yvcZbb9+TLCM1gMHgctWAC+z3TfOZ5QT6IC4GogMGp3XJwkmErrIX57InkTC8aftSyX7Kg31RT1IIEKf/khZWs0NHPq8nkaiewQeTpa2oLy/QKZTY5WoNg9IpFfwior98V1QGeETWiO9noMETHkAvuMUkd/xM6hSSBo+yy3GYPEc=
+  app: lit-forest-68756
+  on:
+    repo: AlexMcComb/react-trello-testing
